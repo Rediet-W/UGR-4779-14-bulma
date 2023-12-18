@@ -1,0 +1,27 @@
+.home {
+  background-image: url(../Images/Home.webp);
+  background-size: cover;
+  height: 400px;
+}
+.hobby {
+  background-image: url(../Images/hobby.jpg);
+  background-size: cover;
+  height: 400px;
+  
+}
+.places-visited {
+  background-image: url(../Images/Travel.jpg);
+  background-size: cover;
+  height: 400px;
+}
+.books {
+  background-image: url(../Images/Books.jpg);
+  background-size: cover;
+  height: 400px;}
+.contributions {
+  background-image: url(../Images/contibutions.jpg);
+  background-size: cover;
+  height: 400px;
+}
+
+

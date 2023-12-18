@@ -2,29 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home </title>
+    <link rel="stylesheet" href="./css/styles.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
+        
 </head>
-<body>
-    <header>
-        <img src="./Images/Logo.jpg" alt="Logo" width="32" height="32"> 
-        <h1> Rediet Woudma </h1>
-        <img src="./Images/Nav.png" alt="Navigation" width="24" height="24">
-    </header>
-    <main>
-        <section id="Top">
-                <h2> <i>Home</i></h2>
-                <blockquote> Shoot for the moon even when you <i>miss</i> it you will land among the stars</blockquote>
-            <img src="../src/Images/left_arrow.svg" alt="left arrow" width="24" height="24">
-            <img src="../src/Images/Home.webp" alt="Home" width="1000" height="200">
-            <a href="#Top"> Read More</a>
-            <img src="../src/Images/Right_arrow.svg" alt="right arrow" width="24" height="24"> 
-        </section>
-        <section>
-            <h2> Professional Summary </h2>
-            <p> Versatile software engineering graduate with a degree in law, combining technical proficiency and legal knowledge to deliver innovative solutions. Strong project management skills, adept at navigating complex regulations, and ensuring compliance. Effective collaborator and problem-solver, with a passion for staying current in both software engineering and legal practices.</p>
+<body class="p-2">
+    <nav class="navbar">
+        <section class="container">
+            <section class="navbar-brand">
+              <section class="navbar-item"><img src="./Images/Logo.jpg" alt="Logo" width="50" height="50" class="header__logo is-rounded m-4 mr-5"> 
+                    <h1 class="header__logo has-text-centered"> Rediet Woudma </h1></section>
+                <span class="navbar-burger burger" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
             </section>
-            <section>
-                <h2> Skills</h2>
+            <section id="navMenu" class="navbar-menu">
+                <section class="navbar-end">
+                    <a href="./home.html" class="navbar-item is-active">Home</a>
+            <a href="./Hobby.html" class="navbar-item">Hobby</a>
+            <a href="./Places_visited.html" class="navbar-item">Places visited</a>
+            <a href="./Books_read.html" class="navbar-item">Books read</a>
+            <a href="./Contributions.html" class="navbar-item">Contributions</a></section>
+            </section>
+        </section>
+    </nav>
+    <main>
+        <section class="carousel" >
+            <section class="carousel-container">
+              <section class="carousel-item" data-autoplay="true">
+                <section class="item home is-background has-background-image">
+                    <section class="columns is-centered ">
+                        <section class="column is-narrow has-text-centered">
+                          <h2 class="title is-2">
+                    <a href="Home.html" ><i> Home</i> </a> </h2>
+            <blockquote class="blockquote"> Shoot for the moon even when you <i>miss</i> it you will land among the stars</blockquote>
+              </section></section></section>
+              <section class="carousel-item">
+                <section class="item hobby">
+                    <section class="columns is-centered ">
+                        <section class="column is-narrow has-text-centered">
+                          <h2 class="title is-2">
+                  <a href="Hobby.html"> <i>Hobby</i></a> </h2>
+            <blockquote class="blockquote"> We are what we repeatedly do, <i>Excellence</i>, then is not an act but a <em>habit</em>.</blockquote>
+              </section></section></section></section>
+              <section class="carousel-item">
+                <section class="item places-visited ">
+                    <section class="columns is-centered ">
+                        <section class="column is-narrow has-text-centered">
+                          <h2 class="title is-2"><a href="./Places_visited.html"> <i>Places Visited</i></a></h2>
+            <blockquote class="blockquote"> Where to <i>next</i>? </blockquote>   
+            </section>
+              </section></section></section>
+              <section class="carousel-item">
+                <section class="item books">
+                    <section class="columns is-centered ">
+                        <section class="column is-narrow has-text-centered">
+                          <h2 class="title is-2">
+                    <a href="./Books_read.html"class="readmore"> <i>Books read</i></a></h2>
+                    <blockquote class="blockquote"> <em>Reading</em> is a passport to worlds unseen, where the mind embarks on scenic adventures and the imagination takes flight.</blockquote>
+              </section></section></section></section>
+              <section class="carousel-item">
+                <section class="item contributions">
+                    <section class="columns is-centered ">
+                        <section class="column is-narrow has-text-centered">
+                          <h2 class="title is-2"><a href="./Contributions.html" class="readmore"> <i>Contributions</i> </a> </h2>
+            <blockquote class="blockquote"> Life is not accumulation, it is <em>contribution</em>.</blockquote>
+            </section>
+            </section></section></section>
+          </section></section></section><br>
+        <section>
+            <h2 class="title"> Professional Summary </h2>
+            <p> Versatile software engineering graduate with a degree in law, combining technical proficiency and legal knowledge to deliver innovative solutions. Strong project management skills, adept at navigating complex regulations, and ensuring compliance. Effective collaborator and problem-solver, with a passion for staying current in both software engineering and legal practices.</p>
+            </section><br>
+            <section class="columns p-2">
+            <section class="skill  is-one-third">
+                <h2 class="title"> Skills</h2>
                 <ul> <li> Software Development </li>
                     <li> Legal Compliance</li>
                     <li>Research analysis </li>
@@ -36,15 +94,15 @@
                     <li> Project Management</li>
                     <li> Continuous Learning </li></ul>
             </section>
-            <section> 
-                <h2> Educational Background</h2>
+            <section class="background  "> 
+                <h2 class="title"> Educational Background</h2>
                 <p> <strong>Bachelor of Science</strong> : Software Engineering and Computing Technologies, Addis Ababa University, 2021-2026: <br>
                     Completed a comprehensive program that provided a strong foundation in software engineering principles, programming languages, and software development methodologies. Developed skills in designing and implementing software solutions, collaborating in team environments, and delivering successful projects.</p>
                 <p> <strong> Bachelor of Arts </strong> : Jurisprudence, University of Oxford, 2027-2030: <br>
                     Pursued a prestigious program in Jurisprudence at the University of Oxford, studying law and legal theory at an advanced level. Explored various areas of law, including contract law, criminal law, constitutional law, and more. Gained critical thinking, analytical, and research skills necessary for legal analysis and problem-solving. Engaged in rigorous academic study and developed a comprehensive understanding of legal principles and their application in different contexts.</p>
-            </section>
+            </section></section>
             <section> 
-                    <h2>Work Experience </h2>
+                    <h2 class="title">Work Experience </h2>
                 <p><em>Software Engineer, Amazon, 2026: </em><br>
 
                     Worked as a software engineer at Amazon for one year, contributing to the development of large-scale software systems. Collaborated with cross-functional teams to design and implement innovative solutions, ensuring high-performance and scalability. Gained experience in agile software development methodologies, code review processes, and delivering robust software products.</p>
@@ -52,44 +110,55 @@
                     Completed a challenging internship at Amazon, supporting software engineering projects and gaining hands-on experience in real-world software development. Assisted in the design, development, and testing of software applications, while learning from experienced professionals in the field.</p>
                     <p> <em>UI/UX Designer, RDX, 2024:</em><br>
                     Worked as a UI/UX designer at RDX, focusing on creating intuitive and visually appealing user interfaces for digital products. Collaborated with multidisciplinary teams, including developers and product managers, to understand user needs and design engaging user experiences. Conducted user research, created wireframes and prototypes, and iteratively improved designs based on user feedback.</p>
-            </section>
+            </section><br>
             <section>
-                <h2> Languages </h2>
+                <h2 class="title"> Languages </h2>
                 <ul> <li> Amharic : Proficent </li>
                     <li> English : Proficent</li>
                 <li> French: Intermediate </li></ul>
-            </section>
-            <section> <h2> Referees</h2>
+            </section><br>
+            <section> <h2 class="title"> Referees</h2>
                 <p>Name: Dr. Anna Müller<br>
                 Position: Senior Manager<br>
                 Company: Amazon Germany<br>
                 Email: anna.mueller@amazon.de<br>
-                Phone: +49 1234567890<br></p>
+                Phone: +49 1234567890<br></p><br>
                 <p>Name: John Smith<br>
                 Position: Senior Software Engineer<br>
                 Company: RDX Technologies<br>
                 Email: john.smith@rdxtech.com<br>
                 Phone: +1 123-456-7890<br></p></section>
     </main>
-    <footer> 
-        <section><h4> Contact</h4>
-        <img src="./Images/email.svg" alt="email icon" width="24" height="24">
-        Redietwoudma@gmail.com<br>
-        <img src="./Images/phone.svg" alt="phone icon" width="24" height="24">
-        +251 912141567<br>
-        <a href="https://www.linkedin.com/yourprofile"><img src="./Images/linkedin.svg" alt="linkedin icon" width="24" height="24"></a>
-        <a href="https://www.instagram.com/yourprofile"><img src="./Images/instagram.svg" alt="instagram icon" width="24" height="24"></a>
-        <a href="https://www.telegram.com/yourprofile"><img src="./Images/telegram.svg" alt="telegram icon" width="24" height="24"></a>
-        <a href="https://www.whatsapp.com/yourprofile"><img src="./Images/whatsapp.svg" alt="whatsapp icon" width="24" height="24"></a>
-        </section>
-        <section>
-            <h4> Quick Links</h4>
-            <a href="#Top"> Home</a><br>
+    <footer class="notification"> <section class="left-for-two">
+        <section><h4 class="subtitle"> Contact</h4>
+        <section class="contact-item"><img src="./Images/email.svg" alt="email icon" width="24" height="24">
+        Redietwoudma@gmail.com<br></section>
+        <section class="contact-item"><img src="./Images/phone.svg" alt="phone icon" width="24" height="24">
+        +251 912141567<br></section></section>
+        <section class="social-media">
+            <section class="icons1">
+        <a href="https://www.linkedin.com/in/rediet-woudma-1410692a2/" ><img src="./Images/linkedin.svg" alt="linkedin icon" width="24" height="24"></a>
+        <a href="https://www.instagram.com/?next=%2Fyourprofile%2F"><img src="./Images/instagram.svg" alt="instagram icon" width="24" height="24"></a></section>
+        <section class="icons2"><a href="https://t.me/Rediet_Woudma" ><img src="./Images/telegram.svg" alt="telegram icon" width="24" height="24"></a>
+        <a href="https://www.whatsapp.com/yourprofile" ><img src="./Images/whatsapp.svg" alt="whatsapp icon" width="24" height="24"></a></section>
+        </section></section>
+        <br>
+        <section class="quicklinks">
+            <h4 class="subtitle"> Quick Links</h4>
+            <a href="#Top" > Home</a><br>
             <a href="./Hobby.html">Hobby</a><br>
             <a href="./Places_visited.html">Places Visited</a><br>
             <a href="./Books_read.html">Books Read</a><br>
             <a href="./Contributions.html">Contributions</a><br>
         </section>
     </footer>
+    <script src="./java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 5
+		});
+		</script>
 </body>
 </html>

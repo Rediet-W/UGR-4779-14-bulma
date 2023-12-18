@@ -2,94 +2,167 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Places Visited </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@1,9..40,300&family=Dancing+Script:wght@600&family=Dosis:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/css/bulma-carousel.min.css">
 </head>
-<body>
-    <header>
-        <img src="./Images/Logo.jpg" alt="Logo" width="32" height="32"> 
-        <h1> Rediet Woudma </h1>
-        <img src="./Images/Nav.png" alt="Navigation" width="24" height="24">
-    </header>
-    <main>
-        <section id="Top">
-            <h2> <i>Places Visited</i></h2>
-            <blockquote> Where to <i>next</i>? </blockquote>
-            <img src="./Images/left_arrow.svg" alt="left arrow" width="24" height="24">
-            <img src="./Images/Travel.jpg" alt="Places visited" width="1000" height="300">
-            <a href="#Top"> Read More</a>
-            <img src="./Images/Right_arrow.svg" alt="right arrow" width="24" height="24"> 
+<body class="p-2">
+    <nav class="navbar">
+        <section class="container">
+            <section class="navbar-brand">
+              <section class="navbar-item"><img src="./Images/Logo.jpg" alt="Logo" width="50" height="50" class="header__logo is-rounded m-4 mr-5"> 
+                    <h1 class="header__logo has-text-centered"> Rediet Woudma </h1></section>
+                <span class="navbar-burger burger" data-target="navMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </section>
+            <section id="navMenu" class="navbar-menu">
+                <section class="navbar-end">
+                    <a href="./home.html" class="navbar-item is-active">Home</a>
+            <a href="./Hobby.html" class="navbar-item">Hobby</a>
+            <a href="./Places_visited.html" class="navbar-item">Places visited</a>
+            <a href="./Books_read.html" class="navbar-item">Books read</a>
+            <a href="./Contributions.html" class="navbar-item">Contributions</a></section>
+            </section>
         </section>
-        <section>
-            <h3> Lalibela | Ethiopia</h3>
-            <p> My journey from Addis Ababa to Lalibela was a deeply enriching and pride-filled experience.,The rolling hills, majestic mountains, and lush valleys reminded me of Ethiopia's natural beauty and the rich tapestry of our land.
+    </nav>
+    <main>
+        <section class="carousel" >
+            <section class="carousel-container">
+              <section class="carousel-item" data-autoplay="true">
+                <section class="item home is-background has-background-image">
+                    <section class="columns is-centered ">
+                        <section class="column is-narrow has-text-centered">
+                          <h2 class="title is-2">
+                    <a href="Home.html" ><i> Home</i> </a> </h2>
+            <blockquote class="blockquote"> Shoot for the moon even when you <i>miss</i> it you will land among the stars</blockquote>
+              </section></section></section>
+              <section class="carousel-item">
+                <section class="item hobby">
+                    <section class="columns is-centered ">
+                        <section class="column is-narrow has-text-centered">
+                          <h2 class="title is-2">
+                  <a href="Hobby.html"> <i>Hobby</i></a> </h2>
+            <blockquote class="blockquote"> We are what we repeatedly do, <i>Excellence</i>, then is not an act but a <em>habit</em>.</blockquote>
+              </section></section></section></section>
+              <section class="carousel-item">
+                <section class="item places-visited ">
+                    <section class="columns is-centered ">
+                        <section class="column is-narrow has-text-centered">
+                          <h2 class="title is-2"><a href="./Places_visited.html"> <i>Places Visited</i></a></h2>
+            <blockquote class="blockquote"> Where to <i>next</i>? </blockquote>   
+            </section>
+              </section></section></section>
+              <section class="carousel-item">
+                <section class="item books">
+                    <section class="columns is-centered ">
+                        <section class="column is-narrow has-text-centered">
+                          <h2 class="title is-2">
+                    <a href="./Books_read.html"class="readmore"> <i>Books read</i></a></h2>
+                    <blockquote class="blockquote"> <em>Reading</em> is a passport to worlds unseen, where the mind embarks on scenic adventures and the imagination takes flight.</blockquote>
+              </section></section></section></section>
+              <section class="carousel-item">
+                <section class="item contributions">
+                    <section class="columns is-centered ">
+                        <section class="column is-narrow has-text-centered">
+                          <h2 class="title is-2"><a href="./Contributions.html" class="readmore"> <i>Contributions</i> </a> </h2>
+            <blockquote class="blockquote"> Life is not accumulation, it is <em>contribution</em>.</blockquote>
+            </section>
+            </section></section></section>
+          </section></section></section><br>
+          <section class="m-5">
+        <h3 class="title p-8"> Lalibela | Ethiopia</h3>
+            <section class="lalibela columns">
+            <p class="column "> My journey from Addis Ababa to Lalibela was a deeply enriching and pride-filled experience.,The rolling hills, majestic mountains, and lush valleys reminded me of Ethiopia's natural beauty and the rich tapestry of our land.
                 Arriving in Lalibela, I felt a profound connection to our heritage. The rock-hewn churches, symbols of our ancient civilization, stood as testaments to the ingenuity and devotion of our ancestors. As I explored these sacred sites, I couldn't help but feel a sense of reverence and awe, knowing that I was walking in the footsteps of generations past.
                 The vibrant marketplaces in Lalibela welcomed me with open arms. The bustling atmosphere, filled with the vibrant colors of traditional garments and the aroma of Ethiopian spices, created a sensory delight. Engaging with local vendors and artisans allowed me to experience the warmth, hospitality, and artistic talents that are deeply ingrained in our Ethiopian culture.
                 The scenic vistas, the cultural treasures, and the rich history all came together to create a sense of pride within me. In that moment, I realized how fortunate I was to call Ethiopia my home.
                 The journey allowed me to not only connect with the physical beauty of our country but also to reconnect with my own identity as an Ethiopian. It was a reminder of the remarkable heritage and vibrant culture that we carry within us, and it filled my heart with a renewed sense of appreciation and love for Ethiopia.</p>
-                <figure>
+                <figure class="column">
                     <video src="./Images/Lalibela_video.mp4" controls>
                     </video>
                     <figcaption> Rock-Hewn Churches of Lalibela, Ethiopia</figcaption>
                 </figure>
             </section>
-            <section>
-                <h3> Jungfrau | Switzerland </h3>
-                <p> With its majestic snow-capped peaks, pristine glaciers, and picturesque valleys, Jungfrau offers a surreal landscape that leaves a lasting impression. The Jungfrau Railway takes you through tunnels carved within the mountains, leading to the summit where panoramic views of the Swiss Alps await. During my visit, I embarked on an incredible journey aboard the Jungfrau Railway, an engineering marvel that tunnels through the heart of the mountains. As I ventured deeper into the tunnels, anticipation grew, and suddenly, a world of wonder unfolded before my eyes. Emerging onto Jungfrau's summit, I was greeted by a 360-degree spectacle of nature's grandeur. The view was nothing short of mesmerizing, with jagged peaks piercing the sky and endless stretches of pristine beauty stretching as far as the eye could see. Beyond Jungfrau, Switzerland's charm extends with quaint villages, delicious Swiss cuisine, and other natural wonders. From Lake Geneva to Zurich, Switzerland captivates with its diverse tapestry of experiences. Jungfrau and the treasures of Switzerland create memories that will forever hold a special place in my heart.</p>
-                <figure>
-                    <img src="./Images/switzerland.webp" alt="Jungfrau" width="400" height="300">
+            <br>
+            <h3 class="title"> Jungfrau | Switzerland </h3><section class="switzerland columns is-flex is-flex-direction-row-reverse">
+                
+                <p class="column"> With its majestic snow-capped peaks, pristine glaciers, and picturesque valleys, Jungfrau offers a surreal landscape that leaves a lasting impression. The Jungfrau Railway takes you through tunnels carved within the mountains, leading to the summit where panoramic views of the Swiss Alps await. During my visit, I embarked on an incredible journey aboard the Jungfrau Railway, an engineering marvel that tunnels through the heart of the mountains. As I ventured deeper into the tunnels, anticipation grew, and suddenly, a world of wonder unfolded before my eyes. Emerging onto Jungfrau's summit, I was greeted by a 360-degree spectacle of nature's grandeur. The view was nothing short of mesmerizing, with jagged peaks piercing the sky and endless stretches of pristine beauty stretching as far as the eye could see. Beyond Jungfrau, Switzerland's charm extends with quaint villages, delicious Swiss cuisine, and other natural wonders. From Lake Geneva to Zurich, Switzerland captivates with its diverse tapestry of experiences. Jungfrau and the treasures of Switzerland create memories that will forever hold a special place in my heart.</p>
+                <figure class="column">
+                    <img src="./Images/switzerland.webp" alt="Jungfrau">
                     <figcaption> Breathtaking beauty of Jungfrau in Switzerland </figcaption>
                 </figure>
             </section>
-            <section>
-                <h3> Paris | France</h3>
-                <p> Visiting Paris was a dream come true. The moment I set foot in the City of Lights, I was captivated by its timeless charm and elegance. The grand boulevards lined with iconic Haussmann-style buildings, the enchanting Seine River flowing gracefully through the heart of the city, and the majestic landmarks that seemed to be lifted from a fairytale—all contributed to an atmosphere of unparalleled beauty.
+            <br>
+            <h3 class="title"> Paris | France</h3>
+            <section class="france columns">
+                <p class="column"> Visiting Paris was a dream come true. The moment I set foot in the City of Lights, I was captivated by its timeless charm and elegance. The grand boulevards lined with iconic Haussmann-style buildings, the enchanting Seine River flowing gracefully through the heart of the city, and the majestic landmarks that seemed to be lifted from a fairytale—all contributed to an atmosphere of unparalleled beauty.
                     Exploring the streets of Paris was like stepping into a living work of art. The vibrant neighborhoods, such as Montmartre with its bohemian charm, and the lively Latin Quarter with its intellectual allure, offered a glimpse into the city's diverse cultural fabric. Every corner seemed to hold a story, and I delighted in discovering hidden gems, cozy cafés, and boutiques brimming with Parisian chic.
                     Of course, no visit to Paris would be complete without marveling at its world-renowned landmarks. Standing before the Eiffel Tower, I felt a sense of awe as it soared into the sky, symbolizing the city's spirit of innovation and romance. The Louvre Museum, with its vast collection of art spanning centuries, transported me through time and left me in awe of human creativity.
                     Indulging in the culinary delights of Paris was a true gastronomic adventure. From savoring delicate pastries at charming patisseries to experiencing the artistry of French cuisine in cozy bistros, each bite was a sensory delight. The city's culinary scene celebrated the rich traditions of French gastronomy, and I relished every opportunity to immerse myself in its flavors and aromas.</p>
-                    <figure>
-                        <img src="./Images/Paris.webp" alt="Paris" width="400" height="300">
+                    <figure class="column">
+                        <img src="./Images/Paris.webp" alt="Paris" >
                         <figcaption> Rue Crémieux, the most colourful street in Paris</figcaption>
                     </figure>
                 </section>
-            <section>
-                <h3>Table Mountain | South Africa</h3>
-                <p>I had the incredible opportunity to ascend the iconic flat-topped peak and immerse myself in the breathtaking beauty it offers.
+                <br>
+            <h3 class="title">Table Mountain | South Africa</h3><section class="south-africa columns is-flex is-flex-direction-row-reverse">
+                <p class="column">I had the incredible opportunity to ascend the iconic flat-topped peak and immerse myself in the breathtaking beauty it offers.
                     As I embarked on the ascent to Table Mountain, anticipation and excitement filled the air. I chose to ride the cableway, which provided a thrilling journey upwards while granting me panoramic views of Cape Town and the surrounding landscapes. The sight from the top was nothing short of awe-inspiring. The vast expanse of the Atlantic Ocean stretched out before me, meeting the horizon in a breathtaking display of nature's grandeur.
                     Exploring Table Mountain's diverse ecosystem was a delight for the senses.Table Mountain also offered an adventure playground for those seeking an adrenaline rush. I embarked on exhilarating hikes, traversing trails that led me through rocky terrain and rewarding me with stunning vistas at every turn. The challenge of the climb was perfectly balanced by the sheer beauty that surrounded me, making each step a testament to the mountain's allure.
                     Beyond its natural splendor, Table Mountain holds a rich cultural and historical significance. I learned about the mountain's place in local mythology and the inspiration it has provided to artists and storytellers throughout the ages. It was humbling to be in a place that holds such significance for the people of South Africa and to feel the deep connection they have with this majestic landmark. I encourage others to embark on their own journey to Table Mountain to create their own cherished memories.</p>
-                <figure>
-                    <img src="./Images/SouthAfrica.webp" alt="Table mountain" width="400" height="300">
+                <figure class="column">
+                    <img src="./Images/SouthAfrica.webp" alt="Table mountain">
                     <figcaption> A natural wonder that captivates the soul </figcaption>
                 </figure>
             </section>
-            <section>
-                <h3> Oxford | England</h3>
-                <p>My visit to Oxford was a nostalgic journey back to my university days at the prestigious University of Oxford. Stepping foot in the city, I was immediately embraced by the aura of intellectualism and rich history that permeates its ancient streets. Every corner seemed to hold a story, and I couldn't wait to explore the nooks and crannies of this academic haven.
+            <br>
+            <h3 class="title"> Oxford | England</h3><section class="england columns is-flex ">
+                
+                <p class="column">My visit to Oxford was a nostalgic journey back to my university days at the prestigious University of Oxford. Stepping foot in the city, I was immediately embraced by the aura of intellectualism and rich history that permeates its ancient streets. Every corner seemed to hold a story, and I couldn't wait to explore the nooks and crannies of this academic haven.
                     One of the highlights of my visit was strolling through the hallowed grounds of Christ Church Meadow.Leaving Christ Church Meadow, I continued my exploration of Oxford, wandering through its historic streets lined with majestic colleges, charming bookstores, and inviting cafés. The city's rich heritage was palpable, and I soaked in the atmosphere, imagining the countless scholars, poets, and thinkers who had walked these same paths before me. </p>
-                <figure> <img src="./Images/Oxford.jfif" alt="Christ Church Meadow">
+                <figure class="column"> <img src="./Images/Oxford.jfif" alt="Christ Church Meadow" >
                     <figcaption> Christ Church Meadow, Oxford </figcaption>
                 </figure>
-                </section>
+                </section></section>
     </main>
-    <footer> 
-        <section><h4> Contact</h4>
-            <img src="./Images/email.svg" alt="email icon" width="24" height="24">
-            Redietwoudma@gmail.com<br>
-            <img src="./Images/phone.svg" alt="phone icon" width="24" height="24">
-            +251 912141567<br>
-            <a href="https://www.linkedin.com/yourprofile"><img src="./Images/linkedin.svg" alt="linkedin icon" width="24" height="24"></a>
-            <a href="https://www.instagram.com/yourprofile"><img src="./Images/instagram.svg" alt="instagram icon" width="24" height="24"></a>
-            <a href="https://www.telegram.com/yourprofile"><img src="./Images/telegram.svg" alt="telegram icon" width="24" height="24"></a>
-            <a href="https://www.whatsapp.com/yourprofile"><img src="./Images/whatsapp.svg" alt="whatsapp icon" width="24" height="24"></a>
-            </section>
-        <section>
-            <h4> Quick Links</h4>
-            <a href="./home.html"> Home</a><br>
+    <footer class="notification"> <section class="left-for-two">
+        <section><h4 class="subtitle"> Contact</h4>
+        <section class="contact-item"><img src="./Images/email.svg" alt="email icon" width="24" height="24">
+        Redietwoudma@gmail.com<br></section>
+        <section class="contact-item"><img src="./Images/phone.svg" alt="phone icon" width="24" height="24">
+        +251 912141567<br></section></section>
+        <section class="social-media">
+            <section class="icons1">
+        <a href="https://www.linkedin.com/in/rediet-woudma-1410692a2/" ><img src="./Images/linkedin.svg" alt="linkedin icon" width="24" height="24"></a>
+        <a href="https://www.instagram.com/?next=%2Fyourprofile%2F"><img src="./Images/instagram.svg" alt="instagram icon" width="24" height="24"></a></section>
+        <section class="icons2"><a href="https://t.me/Rediet_Woudma" ><img src="./Images/telegram.svg" alt="telegram icon" width="24" height="24"></a>
+        <a href="https://www.whatsapp.com/yourprofile" ><img src="./Images/whatsapp.svg" alt="whatsapp icon" width="24" height="24"></a></section>
+        </section></section>
+        <section class="quicklinks ">
+            <h4 class="subtitle"> Quick Links</h4>
+            <a href="./home.html" > Home</a><br>
             <a href="./Hobby.html">Hobby</a><br>
             <a href="./Places_visited.html">Places Visited</a><br>
             <a href="./Books_read.html">Books Read</a><br>
             <a href="./Contributions.html">Contributions</a><br>
         </section>
     </footer>
+    <script src="./java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.3/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		bulmaCarousel.attach('#carousel-demo', {
+			slidesToScroll: 1,
+			slidesToShow: 4
+		});
+		</script>
 </body>
 </html>
